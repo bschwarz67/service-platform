@@ -1,0 +1,12 @@
+
+
+
+
+-sign in on register.
+-bootstrap to make appearance slightly better.
+-launch proto :)
+
+
+
+
+why does inserting <%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags" %> into login.jsp break the page
