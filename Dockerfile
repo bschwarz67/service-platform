@@ -3,3 +3,5 @@
 FROM tomcat
 
 COPY ./target/service-platform.war /usr/local/tomcat/webapps/
+
+EXPOSE ${PORT}
