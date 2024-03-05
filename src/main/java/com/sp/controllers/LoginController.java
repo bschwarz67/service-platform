@@ -21,7 +21,6 @@ class LoginController {
 		SecurityContext context = SecurityContextHolder.getContext();
 		Authentication authentication = context.getAuthentication();
 		String username = authentication.getName();
-		System.out.println(username);
 		return "login";
 	}
 	
