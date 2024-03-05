@@ -5,11 +5,9 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.validation.BeanPropertyBindingResult;
 
 import com.sp.DAO.TicketDAO;
 import com.sp.api.TicketDTO;
-import com.sp.validators.TicketValidator;
 
 @Service
 public class TicketServiceImpl implements TicketService {

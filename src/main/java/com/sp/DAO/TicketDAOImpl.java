@@ -9,7 +9,6 @@ import org.springframework.stereotype.Repository;
 
 import com.sp.api.TicketDTO;
 import com.sp.rowmapper.TicketRowMapper;
-import com.sp.validators.TicketValidator;
 
 
 @Repository

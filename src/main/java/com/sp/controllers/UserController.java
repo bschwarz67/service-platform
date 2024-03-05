@@ -11,8 +11,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.provisioning.UserDetailsManager;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;
 import org.springframework.security.web.context.HttpSessionSecurityContextRepository;
@@ -28,7 +26,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.sp.DAO.UserDAO;
 import com.sp.api.UserDTO;
-import com.sp.validators.TicketValidator;
 import com.sp.validators.UserValidator;
 
 import jakarta.servlet.http.HttpServletRequest;
