@@ -55,7 +55,8 @@ public class ServicePlatformConfig implements WebMvcConfigurer {
 	
 	@Bean
 	public DataSource dataSource() {
-		DriverManagerDataSource dataSource = new DriverManagerDataSource("jdbc:" + "MYSQL_PRIVATE_URL" + "?useSSL=false");
+		DriverManagerDataSource dataSource = new DriverManagerDataSource("jdbc:" + System.getenv("MYSQL_PRIVATE_URL") + "?useSSL=false");
+		System.out.println();
 		//dataSource.setUsername(System.getenv("MYSQLUSER"));
 		//dataSource.setPassword(System.getenv("MYSQLPASSWORD"));
 		//dataSource.setUrl("jdbc:" + "MYSQL_PRIVATE_URL" + "?useSSL=false");
