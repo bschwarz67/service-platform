@@ -5,6 +5,7 @@
 /Users/bryan/eclipse-workspace/service-platform/src/main/java/com/sp/config/ServicePlatformInitializer.java
 /Users/bryan/eclipse-workspace/service-platform/src/main/java/com/sp/controllers/UserController.java
 /Users/bryan/eclipse-workspace/service-platform/src/main/java/com/sp/config/SecurityWebApplicationInitializer.java
+/Users/bryan/eclipse-workspace/service-platform/src/main/java/com/sp/validators/UserValidator.java
 /Users/bryan/eclipse-workspace/service-platform/src/main/java/com/sp/controllers/BCryptPasswordEncoderWrapper.java
 /Users/bryan/eclipse-workspace/service-platform/src/main/java/com/sp/handlers/DefaultHandler.java
 /Users/bryan/eclipse-workspace/service-platform/src/main/java/com/sp/service/TicketService.java
