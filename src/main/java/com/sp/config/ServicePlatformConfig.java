@@ -53,9 +53,11 @@ public class ServicePlatformConfig implements WebMvcConfigurer {
 	public DataSource dataSource() {
 		
 		if(System.getenv("RENDER") != null) {
-			DriverManagerDataSource dataSource = new DriverManagerDataSource(System.getenv("POSTGRESQL_PRIVATE_URL") + "?useSSL=false");
+			DriverManagerDataSource dataSource = new DriverManagerDataSource("jdbc:" + System.getenv("POSTGRESQL_PRIVATE_URL"));
 			System.out.println("testing simple output");
 			System.out.println("testing picking up an env variable " + System.getenv("RENDER"));
+			dataSource.setUsername(System.getenv("USERNAME"));
+			dataSource.setPassword(System.getenv("PASSWORD"));
 			
 			dataSource.setDriverClassName("org.postgresql.Driver");
 			return dataSource;
